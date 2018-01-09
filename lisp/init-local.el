@@ -3,18 +3,6 @@
 
 
 
-(defun shirui/add-pretty-lambda ()
-  "Make some word or string show as pretty Unicode symbols."
-  (setq prettify-symbols-alist
-        '(
-          ("lambda" . 955)
-          )))
-
-(add-hook 'scheme-mode-hook 'shirui/add-pretty-lambda)
-(add-hook 'scheme-mode-hook (lambda () (paredit-mode t)))
-
-
-
 (defun shirui/set-normal-chinese-font ()
   "Set chinese' font be normal."
   (interactive)
