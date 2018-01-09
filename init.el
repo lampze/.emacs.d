@@ -109,8 +109,8 @@
 ;; (require 'init-docker)
 ;; (require 'init-terraform)
 
-;; (require 'init-paredit)
-;; (require 'init-lisp)
+(require 'init-paredit)
+(require 'init-lisp)
 ;; (require 'init-slime)
 ;; (require 'init-clojure)
 ;; (require 'init-clojure-cider)
