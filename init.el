@@ -109,6 +109,7 @@
 ;; (require 'init-docker)
 ;; (require 'init-terraform)
 (maybe-require-package 'nginx-mode)
+(require 'init-nix)
 
 (require 'init-paredit)
 (require 'init-lisp)
