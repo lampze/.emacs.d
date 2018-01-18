@@ -108,6 +108,7 @@
 ;; (require 'init-yaml)
 ;; (require 'init-docker)
 ;; (require 'init-terraform)
+(maybe-require-package 'nginx-mode)
 
 (require 'init-paredit)
 (require 'init-lisp)
